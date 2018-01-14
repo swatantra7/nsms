@@ -1,0 +1,19 @@
+.custom-head{
+  background-color: #c70039;
+}
+.container{
+  width: 100%;
+}
+.top-margin{
+  margin-top: 12px;
+  margin-left: 1px;
+}
+.navigation {
+  background: #034172 none repeat scroll 0 0;
+  border-top: 2px solid #ffc315;
+  min-height: 50px;
+  width: 100%;
+}
+.custom{
+  color: #FFFFFF;
+}

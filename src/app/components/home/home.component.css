@@ -1,0 +1,28 @@
+.home-container{
+  border: 5px solid green;
+  height: auto;
+  padding: 0;
+  margin-bottom: 40px;
+  background-color: white;
+}
+.home{
+  border: 0px solid green;
+  height: auto;
+  padding: 0;
+  margin-bottom: 40px;
+  background-color: white;
+}
+strong{
+  padding: 10px;
+}
+.para-padd{
+  padding-left: 10px;
+}
+
+.header2 {
+  color: #f04e23;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,20 @@
+.global-container{
+  height: auto;
+  padding: 0;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  background-color: white;
+}
+
+h3{
+  color: #003366;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.space-20{
+  padding-top: 20px;
+}
