@@ -11,7 +11,7 @@ export class ImagesService{
 
   constructor(private httpclient: HttpClient) { }
   getImages(): Observable<any>{
-    return this.httpclient.get('http://localhost:3000/upload_documents').map(res => res['urls']);
+    return this.httpclient.get('https://sms-ws.herokuapp.com/upload_documents').map(res => res['urls']);
   }
 }
 

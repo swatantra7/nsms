@@ -18,7 +18,7 @@ export class ContactUsComponent implements OnInit {
   public success: any = false;
 
   onSubmit = function(user){
-    this.http.post('http://localhost:3000/contact_us_contact', user).subscribe(res => {
+    this.http.post('https://sms-ws.herokuapp.com/contact_us_contact', user).subscribe(res => {
       console.log(res.sucess)
       if (res.sucess)
       {
