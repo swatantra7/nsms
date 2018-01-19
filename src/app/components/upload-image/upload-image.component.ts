@@ -20,7 +20,7 @@ export class UploadImageComponent implements OnInit {
     let file = files[0];
     formData.append('upload_document[documents]', file, file.name);
     alert(formData);
-    this.http.post('http://localhost:3000/upload_documents', formData).subscribe(res=>{
+    this.http.post('https://sms-ws.herokuapp.com/upload_documents', formData).subscribe(res=>{
     });
   }
 
