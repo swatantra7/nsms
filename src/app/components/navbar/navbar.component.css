@@ -17,3 +17,11 @@
 .custom{
   color: #FFFFFF;
 }
+
+#a-custom {
+  color: #ffffff !important;
+  font-size: 1.2em;
+}
+.nav-collapse{
+  margin-left: 3px;
+}
