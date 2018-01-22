@@ -26,16 +26,3 @@ strong{
   font-weight: lighter;
   padding-bottom: 5px;
 }
-
-#controls {
-  position:absolute;
-  width: 100%;
-  top:150px;
-  left: 0;
-  margin-left: 0; 
-  height: 500px
-  &>div {
-    width: 100%;
-  }
-}
-
