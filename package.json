@@ -28,6 +28,7 @@
     "angular4-carousel": "^3.1.8",
     "core-js": "^2.4.1",
     "express": "^4.16.2",
+    "ng-responsive-image": "^1.0.0",
     "ng2-carouselamos": "^3.2.0",
     "rxjs": "^5.4.2",
     "typescript": "~2.3.3",

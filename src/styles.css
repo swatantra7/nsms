@@ -18,3 +18,8 @@ h3{
 .space-20{
   padding-top: 20px;
 }
+
+.items{
+  max-width: 500px;
+  height: 400px;
+}
