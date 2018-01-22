@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; 
 import { HttpClientModule } from '@angular/common/http';
-import { CarouselModule } from 'angular4-carousel';
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
@@ -39,7 +39,7 @@ import { UploadImageComponent } from './components/upload-image/upload-image.com
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    CarouselModule
+    Ng2CarouselamosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
