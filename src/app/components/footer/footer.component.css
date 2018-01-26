@@ -1,5 +1,8 @@
-footer {
+.footer {
   position: fixed;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
   bottom: 0px;
   background-color: #0d1526;
   color: #999;
